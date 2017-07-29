@@ -54,7 +54,7 @@ inquirer.prompt([
 			var card = new ClozeCard(input.text, input.cloze);
 			console.log(card.cloze);
 			console.log(card.partial);
-			console.log(card.text);
+			console.log(card.full);
 
 		});
 
