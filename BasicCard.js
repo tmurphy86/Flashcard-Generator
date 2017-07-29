@@ -1,4 +1,5 @@
-module.exports = BasicCard (front, back) {
-	this.front = front,
-	this.back = back
-}
+
+module.exports = (function BasicCard (front, back) {
+	this.front = front;
+	this.back = back;
+});
